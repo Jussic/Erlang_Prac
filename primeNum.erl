@@ -17,7 +17,7 @@ if N rem X == 0 -> helpers (N, X - 1) ++[X];
 true -> helpers(N, X - 1)
 end.
 
-%% - - - - - - - - - - - - - - - - - - - - - - - - - 
+%% - - - - - - - - - - - - - - - - - - - - - - - - 
 %% FIND IF NUMBER IS PRIME NUMBER  √
 
 %% BASE CASE 
@@ -45,7 +45,7 @@ primeList(Start, Finish) ->
     true -> primeList(Start, Finish-1)
   end.
 
-%% - - - - - - - - - - - - - - - - - - - - - - - - - 
+%% - - - - - - - - - - - - - - - - - - - - - - - - 
 %% FIND PRIME FACTORIZATION √
 
 primeFactorization(N) ->
