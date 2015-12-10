@@ -32,7 +32,7 @@ if TheList == 2 -> true;
 true -> false
 end.
 
-%% - - - - - - - - - - - - - - - - - - - - - - - - - 
+%% - - - - - - - - - - - - - - - - - - - - - - - - 
 %% FIND PRIME LIST  √
 
 primeList(Start, Start ) -> [ ]; 
@@ -45,7 +45,7 @@ primeList(Start, Finish) ->
     true -> primeList(Start, Finish-1)
   end.
 
-%% - - - - - - - - - - - - - - - - - - - - - - - - 
+%% - - - - - - - - - - - - - - - - - - - - - - - 
 %% FIND PRIME FACTORIZATION √
 
 primeFactorization(N) ->
